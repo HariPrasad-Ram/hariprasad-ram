@@ -37,6 +37,7 @@ const Index = () => {
         <Contact />
       </main>
       <Footer />
+      <FloatingDock />
     </div>
   );
 };
