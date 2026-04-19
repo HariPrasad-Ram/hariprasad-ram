@@ -7,7 +7,7 @@ interface Props {
   pause?: number;
 }
 
-const TypingText = ({ words, typingSpeed = 90, deletingSpeed = 50, pause = 1400 }: Props) => {
+const TypingText = ({ words, typingSpeed = 90, deletingSpeed = 50, pause = 2000 }: Props) => {
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");
   const [deleting, setDeleting] = useState(false);
