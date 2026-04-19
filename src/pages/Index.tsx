@@ -3,6 +3,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
 import { useReveal } from "@/hooks/useReveal";
 
 const Index = () => {
@@ -23,6 +24,7 @@ const Index = () => {
         <Hero />
         <About />
         <Skills />
+        <Projects />
       </main>
     </div>
   );
