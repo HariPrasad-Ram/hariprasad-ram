@@ -30,7 +30,6 @@ const FloatingDock = () => {
         >
           <Mail className="h-4 w-4" />
         </a>
-        <span className="mt-2 h-16 w-px bg-border" />
       </aside>
 
       {/* Floating Hire Me button (bottom right) */}
