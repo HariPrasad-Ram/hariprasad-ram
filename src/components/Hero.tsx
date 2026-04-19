@@ -57,34 +57,40 @@ const Hero = () => {
             month. I don&apos;t just visualize data — I find the story inside it.
           </p>
 
-          <div className="flex flex-wrap gap-3">
-            <a
-              href="/Hariram_data_analyst.pdf"
-              download
-              className="inline-flex items-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:brightness-110 shadow-[0_10px_30px_-10px_hsl(var(--primary))] transition"
-            >
-              <Download className="h-4 w-4" /> Download Resume
-            </a>
-            <a
-              href="/Hariram_data_analyst.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-md border border-primary px-5 py-2.5 text-sm font-semibold text-primary hover:bg-primary/10 transition"
-            >
-              <Eye className="h-4 w-4" /> Preview Resume
-            </a>
-            <a
-              href="#projects"
-              className="inline-flex items-center gap-2 rounded-md border border-secondary px-5 py-2.5 text-sm font-semibold text-secondary hover:bg-secondary/10 transition"
-            >
-              View Projects <ArrowRight className="h-4 w-4" />
-            </a>
-            <a
-              href="#contact"
-              className="inline-flex items-center gap-2 rounded-md border border-foreground/30 px-5 py-2.5 text-sm font-semibold text-foreground hover:border-foreground hover:bg-foreground/5 transition"
-            >
-              <Mail className="h-4 w-4" /> Hire Me
-            </a>
+          <div className="flex flex-col gap-3 sm:gap-4">
+            {/* Row 1: Resume buttons */}
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a
+                href="/Hariram_data_analyst.pdf"
+                download
+                className="flex-1 inline-flex items-center justify-center gap-2 rounded-md bg-primary px-5 py-2.5 text-sm font-semibold text-primary-foreground hover:brightness-110 shadow-[0_10px_30px_-10px_hsl(var(--primary))] transition"
+              >
+                <Download className="h-4 w-4" /> Download Resume
+              </a>
+              <a
+                href="/Hariram_data_analyst.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 inline-flex items-center justify-center gap-2 rounded-md border border-primary px-5 py-2.5 text-sm font-semibold text-primary hover:bg-primary/10 transition"
+              >
+                <Eye className="h-4 w-4" /> Preview Resume
+              </a>
+            </div>
+            {/* Row 2: Action buttons */}
+            <div className="flex flex-col sm:flex-row gap-3">
+              <a
+                href="#projects"
+                className="flex-1 inline-flex items-center justify-center gap-2 rounded-md border border-cyan-500 px-5 py-2.5 text-sm font-semibold text-cyan-400 hover:bg-cyan-500/10 transition"
+              >
+                View Projects <ArrowRight className="h-4 w-4" />
+              </a>
+              <a
+                href="#contact"
+                className="flex-1 inline-flex items-center justify-center gap-2 rounded-md border border-foreground/30 px-5 py-2.5 text-sm font-semibold text-foreground hover:border-foreground hover:bg-foreground/5 transition"
+              >
+                <Mail className="h-4 w-4" /> Hire Me
+              </a>
+            </div>
           </div>
 
           <div className="flex items-center gap-3 pt-2">
