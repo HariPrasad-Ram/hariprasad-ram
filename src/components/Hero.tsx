@@ -29,21 +29,19 @@ const Hero = () => {
             </span>
           </div>
 
-          <div className="flex items-center gap-5">
-            <div className="relative ring-pulse">
+          <div className="flex justify-center">
+            <div className="relative">
               <img
                 src={profile}
                 alt="Hariprasad Ram"
-                className="relative h-[160px] w-[160px] rounded-full object-cover border-[3px] border-primary shadow-[0_0_50px_-6px_hsl(var(--primary)/0.85)]"
+                className="h-[160px] w-[160px] rounded-full object-cover border-[3px] border-[#f59e0b] shadow-[0_0_20px_rgba(245,158,11,0.4)]"
+                style={{ objectPosition: "center top" }}
               />
-            </div>
-            <div className="hidden sm:block">
-              <p className="text-xs uppercase tracking-[0.25em] text-muted-foreground">Portfolio</p>
-              <p className="font-display text-lg">Data · Insight · Impact</p>
+              <span className="absolute -inset-1 rounded-full border-2 border-[#f59e0b]/30 animate-pulse" />
             </div>
           </div>
 
-          <div className="space-y-3">
+          <div className="space-y-4 text-center">
             <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-[0.95]">
               Hariprasad <span className="text-amber">Ram</span>
             </h1>
