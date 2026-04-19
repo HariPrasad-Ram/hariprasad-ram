@@ -34,7 +34,7 @@ const Hero = () => {
               src={profile}
               alt="Hariprasad Ram"
               className="h-[220px] w-[220px] rounded-full object-cover border-[3px] border-[#f59e0b] shadow-[0_0_25px_rgba(245,158,11,0.5)]"
-              style={{ objectPosition: "center 10%" }}
+              style={{ objectPosition: "center 15%" }}
             />
             <span className="absolute -inset-1 rounded-full border-2 border-[#f59e0b]/30 animate-pulse pointer-events-none" />
           </div>
