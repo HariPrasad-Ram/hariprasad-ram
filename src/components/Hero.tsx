@@ -34,7 +34,7 @@ const Hero = () => {
               <img
                 src={profile}
                 alt="Hariprasad Ram"
-                className="relative h-[150px] w-[150px] rounded-full object-cover border-2 border-primary shadow-[0_0_40px_-8px_hsl(var(--primary))]"
+                className="relative h-[160px] w-[160px] rounded-full object-cover border-[3px] border-primary shadow-[0_0_50px_-6px_hsl(var(--primary)/0.85)]"
               />
             </div>
             <div className="hidden sm:block">

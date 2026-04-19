@@ -9,6 +9,7 @@ import Education from "@/components/Education";
 import Certifications from "@/components/Certifications";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import FloatingDock from "@/components/FloatingDock";
 import { useReveal } from "@/hooks/useReveal";
 
 const Index = () => {
