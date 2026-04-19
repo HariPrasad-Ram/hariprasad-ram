@@ -16,32 +16,29 @@ const Hero = () => {
         style={{ background: "radial-gradient(circle, hsl(var(--secondary)/0.5), transparent 70%)" }}
       />
 
-      <div className="container relative grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+      <div className="container relative grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
         {/* LEFT */}
-        <div className="reveal space-y-7">
-          <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1.5 text-xs">
-            <span className="relative flex h-2 w-2">
-              <span className="absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75 animate-ping" />
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
-            </span>
-            <span className="text-muted-foreground">
-              Available for Work · <span className="text-foreground">Hyderabad, Telangana</span>
-            </span>
-          </div>
-
-          <div className="flex justify-center">
-            <div className="relative">
-              <img
-                src={profile}
-                alt="Hariprasad Ram"
-                className="h-[160px] w-[160px] rounded-full object-cover border-[3px] border-[#f59e0b] shadow-[0_0_20px_rgba(245,158,11,0.4)]"
-                style={{ objectPosition: "center top" }}
-              />
-              <span className="absolute -inset-1 rounded-full border-2 border-[#f59e0b]/30 animate-pulse" />
+        <div className="reveal flex flex-col items-start gap-6">
+          <div className="relative">
+            <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1.5 text-xs mb-4">
+              <span className="relative flex h-2 w-2">
+                <span className="absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75 animate-ping" />
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500" />
+              </span>
+              <span className="text-muted-foreground">
+                Available for Work · <span className="text-foreground">Hyderabad, Telangana</span>
+              </span>
             </div>
+            <img
+              src={profile}
+              alt="Hariprasad Ram"
+              className="h-[160px] w-[160px] rounded-full object-cover border-[3px] border-[#f59e0b] shadow-[0_0_20px_rgba(245,158,11,0.4)]"
+              style={{ objectPosition: "center top" }}
+            />
+            <span className="absolute left-0 bottom-0 h-[160px] w-[160px] -inset-1 rounded-full border-2 border-[#f59e0b]/30 animate-pulse pointer-events-none" style={{ top: "auto" }} />
           </div>
 
-          <div className="space-y-4 text-center">
+          <div className="space-y-3 text-left w-full">
             <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl font-bold leading-[0.95]">
               Hariprasad <span className="text-amber">Ram</span>
             </h1>
