@@ -12,7 +12,7 @@ const facts = [
 
 const About = () => {
   return (
-    <section id="about" className="relative py-24 lg:py-32">
+    <section id="about" className="relative py-20">
       <div className="container">
         <div className="reveal mb-12 max-w-3xl">
           <p className="text-xs font-semibold tracking-[0.3em] text-amber mb-3">ABOUT ME</p>

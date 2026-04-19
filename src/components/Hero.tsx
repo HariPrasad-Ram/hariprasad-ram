@@ -5,7 +5,7 @@ import CountUp from "./CountUp";
 
 const Hero = () => {
   return (
-    <section id="hero" className="relative pt-28 pb-20 lg:pt-36 lg:pb-28 overflow-hidden">
+    <section id="hero" className="relative pt-20 pb-20 overflow-hidden">
       <div className="absolute inset-0 dot-grid opacity-60 pointer-events-none" />
       <div
         className="absolute -top-40 -left-40 h-96 w-96 rounded-full blur-3xl opacity-30 pointer-events-none"

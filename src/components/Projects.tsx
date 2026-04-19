@@ -59,7 +59,7 @@ const Projects = () => {
   const visible = active === "All" ? projects : projects.filter((p) => p.categories.includes(active));
 
   return (
-    <section id="projects" className="relative py-24 lg:py-32">
+    <section id="projects" className="relative py-20">
       <div className="container">
         <div className="reveal mb-10 max-w-3xl">
           <p className="text-xs font-semibold tracking-[0.3em] text-amber mb-3">FEATURED PROJECTS</p>

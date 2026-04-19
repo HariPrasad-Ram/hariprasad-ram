@@ -127,7 +127,7 @@ const Card = ({ card }: { card: SkillCard }) => {
 
 const Skills = () => {
   return (
-    <section id="skills" className="relative py-24 lg:py-32 bg-muted/20">
+    <section id="skills" className="relative py-20 bg-muted/20">
       <div className="container">
         <div className="reveal mb-12 max-w-3xl">
           <p className="text-xs font-semibold tracking-[0.3em] text-amber mb-3">SKILLS</p>
@@ -145,7 +145,7 @@ const Skills = () => {
           ))}
         </div>
 
-        <div className="reveal mt-14">
+        <div className="reveal">
           <p className="text-xs font-semibold tracking-[0.3em] text-amber mb-5">TECH STACK</p>
           <div className="flex flex-wrap gap-2.5">
             {techStack.map((t) => (
