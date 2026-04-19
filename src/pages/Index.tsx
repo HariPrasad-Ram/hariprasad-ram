@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Skills from "@/components/Skills";
 import { useReveal } from "@/hooks/useReveal";
 
 const Index = () => {
@@ -21,6 +22,7 @@ const Index = () => {
       <main>
         <Hero />
         <About />
+        <Skills />
       </main>
     </div>
   );
