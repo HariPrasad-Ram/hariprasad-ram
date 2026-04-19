@@ -18,7 +18,7 @@ const Hero = () => {
 
       <div className="container relative grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
         {/* LEFT */}
-        <div className="reveal flex flex-col items-start gap-6">
+        <div className="flex flex-col items-start gap-6 self-start">
           <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3 py-1.5 text-xs">
             <span className="relative flex h-2 w-2">
               <span className="absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75 animate-ping" />
@@ -114,7 +114,7 @@ const Hero = () => {
         </div>
 
         {/* RIGHT */}
-        <div className="reveal">
+        <div className="self-start">
           <div className="card-hover relative rounded-2xl bg-card border border-border p-7 sm:p-8 overflow-hidden">
             <div className="absolute top-0 inset-x-0 h-[3px] bg-primary" />
             <div className="flex items-center justify-between mb-6">
