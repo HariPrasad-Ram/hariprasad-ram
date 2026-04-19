@@ -29,12 +29,12 @@ const Hero = () => {
             </span>
           </div>
 
-          <div className="relative h-[160px] w-[160px]">
+          <div className="relative h-[220px] w-[220px]">
             <img
               src={profile}
               alt="Hariprasad Ram"
-              className="h-[160px] w-[160px] rounded-full object-cover border-[3px] border-[#f59e0b] shadow-[0_0_20px_rgba(245,158,11,0.4)]"
-              style={{ objectPosition: "center top" }}
+              className="h-[220px] w-[220px] rounded-full object-cover border-[3px] border-[#f59e0b] shadow-[0_0_25px_rgba(245,158,11,0.5)]"
+              style={{ objectPosition: "center 10%" }}
             />
             <span className="absolute -inset-1 rounded-full border-2 border-[#f59e0b]/30 animate-pulse pointer-events-none" />
           </div>
